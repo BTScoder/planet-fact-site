@@ -43,7 +43,7 @@ function App() {
   return (
     <>
       {/* <h1>Hello Planets</h1> */}
-      <div className="h-screen w-screen bg-[url('images/background-stars.svg')] p-5 font-[League_Spartan] text-white">
+      <div className="h-screen w-screen bg-[url('/images/background-stars.svg')] p-5 font-[League_Spartan] text-white">
         <Navbar planets={planets} setSelectedPlanet={setSelectedPlanet} />
         <Overview
           planets={planets}
